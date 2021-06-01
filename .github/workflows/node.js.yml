@@ -27,4 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
 #     - run: cd backend
     - run: npm i backend
+    - run: npm i backend
+    - run: npm i express backend
     - run: npm --prefix ./backend run start
